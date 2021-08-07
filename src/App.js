@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MyDatePicker from './MyDatePicker/MyDatePicker';
+import MyDatePicker from './Components/MyDatePicker/MyDatePicker';
 
 import './style.css';
 
