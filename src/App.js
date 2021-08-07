@@ -1,11 +1,19 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
 
-export default function App() {
+import MyDatePicker from './MyDatePicker/MyDatePicker';
+
+import './style.css';
+
+function onChange(timestamp) {
+  console.log(timestamp);
+}
+
+function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="App">
+      <MyDatePicker onChange={onChange} />
     </div>
   );
 }
+
+export default App;
