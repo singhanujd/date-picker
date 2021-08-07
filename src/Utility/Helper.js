@@ -23,6 +23,9 @@ export const monthMap = [
   'December'
 ];
 
+export const getMonthStr = month =>
+  monthMap[Math.max(Math.min(11, month), 0)] || 'Month';
+
 export const getNumberOfDays = (year, month) => {
   return 40 - new Date(year, month, 40).getDate();
 };

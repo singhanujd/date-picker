@@ -142,7 +142,7 @@
 /**
 *  Calendar
 */
-.cc-month,
+/* .cc-month,
 .cc-head,
 .cch-name,
 .cc-body,
@@ -156,7 +156,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
+} */
 
 .c-container {
   width: 100%;
@@ -184,43 +184,4 @@
   color: #666;
   font-size: 9px;
   text-align: center;
-}
-.cc-body {
-  height: 270px;
-  width: 100%;
-}
-.c-day-container {
-  width: 14.285%;
-  height: 16.6666%;
-}
-.cdc-day {
-  width: 100%;
-  height: 100%;
-  font-size: 12px;
-  font-weight: 300;
-  color: #444;
-  text-align: center;
-}
-.cdc-day span {
-  width: 100%;
-  height: 100%;
-  font-size: 12px;
-  font-weight: 300;
-  color: #444;
-}
-
-.cdc-day span:hover {
-  cursor: pointer;
-  background: #eee;
-}
-.cdc-day span {
-  width: 30px;
-  height: 30px;
-  margin-top: -15px;
-  margin-left: -15px;
-  left: 50%;
-  top: 50%;
-  font-weight: 400;
-  border-radius: 100%;
-  line-height: 30px;
 }
