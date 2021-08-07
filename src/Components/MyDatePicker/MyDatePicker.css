@@ -12,8 +12,6 @@
   user-select: none; /* Non-prefixed version, currently */
 }
 
-
-
 .mdp-container {
   float: left;
   position: absolute;
@@ -225,20 +223,4 @@
   font-weight: 400;
   border-radius: 100%;
   line-height: 30px;
-}
-.c-day-container.disabled {
-  pointer-events: none;
-}
-
-.c-day-container.disabled .cdc-day span {
-  color: #ddd;
-}
-.c-day-container.disabled .cdc-day span {
-  background: #fff !important;
-}
-.c-day-container.highlight .cdc-day span {
-  background: #efdbca;
-}
-.c-day-container.highlight-green .cdc-day span {
-  background: #d4e2cb;
 }
