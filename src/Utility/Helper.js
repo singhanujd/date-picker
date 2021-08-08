@@ -68,6 +68,7 @@ export const getDayDetails = args => {
   let _date =
     (date < 0 ? prevMonthNumberOfDays + date : date % args.numberOfDays) + 1;
   let month = date < 0 ? -1 : date >= args.numberOfDays ? 1 : 0;
+  console.log(args.year, args.month, _date);
   let timestamp = new Date(args.year, args.month, _date).getTime();
   return {
     date: _date,

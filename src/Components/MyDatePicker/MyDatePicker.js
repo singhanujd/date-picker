@@ -43,7 +43,6 @@ const MyDatePicker = () => {
   };
 
   const isSelectedDay = day => {
-    console.log(day, day.timestamp, selectedDay);
     return day.timestamp === selectedDay;
   };
 
